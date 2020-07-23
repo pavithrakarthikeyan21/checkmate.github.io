@@ -1,0 +1,32 @@
+body
+{
+	margin: 0;
+	padding:0;
+	background-image: url("images/back.jpg");
+		-webkit-background-size:cover;
+		background-size:cover;
+		font-family:Poppins;
+	}
+		
+h1{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size:22px;
+	color:black;
+	text-align:center;
+	margin-bottom:8%;
+	
+
+	font-family:Courgette;
+}
+#overlay-area{
+	position:absolute;
+	background-color:rgba(0,0,0,0.4);
+	z-index:-5;
+	height:100%;
+	width:100%;
+	top:0;
+	bottom:0;
+
+}
